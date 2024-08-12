@@ -1,0 +1,41 @@
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-12 text-center mb-4">
+     <h1 class="mt-5">Our Pricing</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4" *ngFor="let plan of plans">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">{{ plan.name }}</h5>
+          <p class="card-text">Projects: {{ plan.projects }}</p>
+          <p class="card-text">API Access: {{ plan.apiAccess }}</p>
+          <p class="card-text">Storage: {{ plan.storage }}</p>
+          <p class="card-text">Reports: {{ plan.reports }}</p>
+          <p class="card-text">Support: {{ plan.support }}</p>
+          <p class="card-text">Monthly: ${{ plan.monthlyPrice }}</p>
+          <p class="card-text">Yearly: ${{ plan.yearlyPrice }}</p>
+          <button class="btn btn-primary" (click)="choosePlan(plan)">Choose Plan</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mt-4">
+    <h4>FAQs</h4>
+    <ul>
+      <li><strong>Can I cancel my subscription?</strong> Fusce dapibus, tellus ac cursus commodo, tortor mauris
+        condimentum nibh, ut fermentum massa justo sit amet risus.</li>
+      <li><strong>Which payment methods do you accept?</strong> Fusce dapibus, tellus ac cursus commodo, tortor
+        mauris condimentum nibh, ut fermentum massa justo sit amet risus.</li>
+      <li><strong>How can I manage my Account?</strong> Fusce dapibus, tellus ac cursus commodo, tortor mauris
+        condimentum nibh, ut fermentum massa justo sit amet risus.</li>
+      <li><strong>Is my credit card information secure?</strong> Fusce dapibus, tellus ac cursus commodo, tortor
+        mauris condimentum nibh, ut fermentum massa justo sit amet risus.</li>
+    </ul>
+  </div>
+  <div class="mt-4">
+    <h4>Join our community by using our services and grow your business.</h4>
+    <button class="btn btn-success">Try It For Free</button>
+  </div>
+</div>

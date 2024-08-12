@@ -1,0 +1,35 @@
+
+.why-choose-us {
+  background-color: #f8f9fa;
+}
+
+.why-choose-us h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.why-choose-us p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.why-choose-us .card {
+  border: none;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.why-choose-us .card-title {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+.why-choose-us .card-title i {
+  font-size: 1.2em;
+  margin-right: 10px;
+}
+
+.why-choose-us .card-text {
+  font-size: 1em;
+  margin-bottom: 20px;
+}

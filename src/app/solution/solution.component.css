@@ -1,0 +1,47 @@
+.solutions {
+  background-color: #f8f9fa;
+}
+
+.solutions h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.solutions p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.solutions ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.solutions ul li {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 20px;
+}
+
+.solutions ul li:before {
+  content: "\f00c"; /* Font Awesome check icon */
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.solutions .counter {
+  margin-top: 20px;
+}
+
+.solutions .counter h3 {
+  font-size: 2.5em;
+  color: #007bff;
+}
+
+.solutions .counter p {
+  font-size: 1.2em;
+}

@@ -1,0 +1,29 @@
+
+.hero {
+  background-image: url('/assets/entrpW.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  color: white;
+  text-align: center;
+}
+
+.hero .hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.5em;
+  margin-bottom: 30px;
+}
+
+.hero .btn {
+  padding: 10px 20px;
+  font-size: 1.2em;
+}

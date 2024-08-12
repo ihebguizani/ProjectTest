@@ -1,0 +1,21 @@
+
+<section class="case-studies py-5">
+  <div class="container">
+    <h2 class="text-center mb-5">Case Studies</h2>
+    <p class="text-center mb-4">Check out some of our awesome projects with creative ideas and great design.</p>
+    <div class="row">
+      <div class="col-md-6 col-lg-3 mb-4" *ngFor="let case of caseStudies">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">{{ case.title }}</h5>
+            <p class="card-text">{{ case.description }}</p>
+            <p class="text-muted">{{ case.date }}</p>
+            <p class="text-muted">{{ case.category }}</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+

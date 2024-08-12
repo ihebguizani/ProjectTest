@@ -1,0 +1,32 @@
+
+.services {
+  background-color: #f8f9fa;
+}
+
+.services h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.services p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.services .card {
+  margin-bottom: 30px;
+}
+
+.services .card-title {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+.services .card-text {
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+.services .btn {
+  font-size: 1em;
+}
